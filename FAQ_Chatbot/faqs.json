@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the Aether Cloud Platform?",
+    "answer": "Aether Cloud Platform is a next-generation decentralized cloud infrastructure offering high-performance serverless computing, secure object storage, and automated global load balancing.",
+    "category": "General"
+  },
+  {
+    "question": "How do I sign up for an Aether account?",
+    "answer": "You can sign up by visiting our portal at console.aether.io, clicking 'Sign Up', and verifying your email address. New accounts receive a free credit of $50.",
+    "category": "Account"
+  },
+  {
+    "question": "What is your refund policy?",
+    "answer": "We offer a 30-day money-back guarantee for all subscription plans if you are unsatisfied with our service. Contact support@aether.io to request a refund.",
+    "category": "Billing"
+  },
+  {
+    "question": "Does Aether support multi-region deployments?",
+    "answer": "Yes! Aether has a built-in Global Distribution network that lets you deploy containers to over 40 edge regions simultaneously with a single command.",
+    "category": "Features"
+  },
+  {
+    "question": "Is there a CLI for Aether Cloud?",
+    "answer": "Absolutely. You can install the Aether CLI using npm: 'npm install -g @aether/cli' or curl: 'curl -sSf https://cli.aether.io/install.sh | sh'. Once installed, authenticate using 'aether login'.",
+    "category": "Tools"
+  },
+  {
+    "question": "How can I reset my account password?",
+    "answer": "Go to console.aether.io/forgot-password, enter your registered email, and follow the link sent to your inbox to securely reset your password.",
+    "category": "Account"
+  },
+  {
+    "question": "What payment methods are supported on Aether?",
+    "answer": "We accept major credit cards (Visa, MasterCard, American Express), PayPal, Wire Transfers for Enterprise accounts, and crypto payments in USDC.",
+    "category": "Billing"
+  },
+  {
+    "question": "How does auto-scaling work in Aether Cloud?",
+    "answer": "Aether automatically monitors CPU, memory, and inbound HTTP request rate. When thresholds exceed 75%, new instances spin up within 200ms without downtime.",
+    "category": "Features"
+  },
+  {
+    "question": "Is data stored on Aether encrypted?",
+    "answer": "Yes. All data at rest is encrypted using AES-256 GCM, and data in transit is encrypted using TLS 1.3 with automated SSL certificate provisioning.",
+    "category": "Security"
+  },
+  {
+    "question": "How do I contact Aether Support?",
+    "answer": "You can reach out to our 24/7 technical support team via email at support@aether.io, submit a ticket in console.aether.io/support, or join our community Discord server.",
+    "category": "Support"
+  },
+  {
+    "question": "What uptime SLA does Aether offer?",
+    "answer": "Aether guarantees a 99.99% service availability SLA for standard production clusters, backed by financial credits if downtime SLA is breached.",
+    "category": "General"
+  },
+  {
+    "question": "Does Aether provide API access for programmatically managing clusters?",
+    "answer": "Yes, Aether offers a full REST and GraphQL API along with SDKs for Python, Node.js, Go, and Rust. API tokens can be created in your account dashboard.",
+    "category": "Tools"
+  },
+  {
+    "question": "Can I import Docker images or custom container registries?",
+    "answer": "Yes, Aether supports standard OCI container images from Docker Hub, GitHub Container Registry (GHCR), Amazon ECR, Google Artifact Registry, or private registries.",
+    "category": "Features"
+  },
+  {
+    "question": "Is Aether Cloud compliant with GDPR and SOC 2?",
+    "answer": "Yes, Aether is fully SOC 2 Type II certified, GDPR compliant, HIPAA compliant (for enterprise healthcare workspaces), and ISO 27001 certified.",
+    "category": "Security"
+  },
+  {
+    "question": "How are bandwidth and data egress billed?",
+    "answer": "Inbound bandwidth is 100% free. Outbound egress data includes 1 TB free per month, after which additional data is billed at $0.01 per GB.",
+    "category": "Billing"
+  },
+  {
+    "question": "How do I delete my account or purge data?",
+    "answer": "You can request account deletion under Console Settings > Account > Danger Zone > Delete Account. All data will be permanently purged within 7 business days.",
+    "category": "Account"
+  }
+]
